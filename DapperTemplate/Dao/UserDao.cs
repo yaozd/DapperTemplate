@@ -1,4 +1,4 @@
-ï»¿
+
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -66,7 +66,7 @@ namespace DapperTemplate.Dao
 
         public User FindById(Int32 userId)
         {
-            //é»˜è®¤top 1--1æ¡è®°å½•
+            //Ä¬ÈÏtop 1--1Ìõ¼ÇÂ¼
             StringBuilder strSql = new StringBuilder();
             strSql.Append("select  top 1 ");
             strSql.Append("userId,username,passwordHash,email,phoneNumber,isFirstTimeLogin,accessFailedCount,creationDate,isActive,lastTimestamp  ");

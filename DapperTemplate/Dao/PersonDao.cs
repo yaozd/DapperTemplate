@@ -60,7 +60,7 @@ namespace DapperTemplate.Dao
 
         public Person FindById(Int32 id)
         {
-            //é»˜è®¤top 1--1æ¡è®°å½?
+            //Ä¬ÈÏtop 1--1Ìõ¼ÇÂ¼
             StringBuilder strSql = new StringBuilder();
             strSql.Append("select  top 1 ");
             strSql.Append("id,username,password,age,registerDate,address  ");
